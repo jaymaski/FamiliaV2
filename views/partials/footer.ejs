@@ -1,0 +1,22 @@
+</div>
+<footer>
+    <script>
+        function openNav() {
+            if(document.getElementById("sidebar").style.width == "250px"){
+                closeNav();
+            }
+            else {
+                document.getElementById("sidebar").style.width = "250px";
+                document.getElementById("mainContent").style.marginLeft = "250px";
+            }
+        }
+
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+            document.getElementById("mainContent").style.marginLeft = "0";
+        }        
+    </script>    
+</footer>
+</body>
+</html>
